@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+		<link rel="stylesheet" href="/css/tailwind.css"/>
+		<link rel="stylesheet" href="/css/view.css"/>
+		<link rel="icon" href="/images/d.PNG">
+
+		<title>Diskify</title>
+
+		<script src="/components/footer.js" type="text/javascript" defer></script>
+		<script src="/components/header.js" type="text/javascript" defer></script>
+
+	</head>
+
+	<body>
+
+		<header-component></header-component>
+
+
+		<div class="grid grid-flow-col grid-rows-5 grid-cols-2 gap-1 lg:flex lg:items-center mt-8 mb-2 h-96 p-10 sm:p-8 object-center">
+			
+			<div class="h-96 object-scale-down row-span-6 object-contain">
+				
+				<img class="object-scale-down w-1/2 m-auto max-h-full" src="/onauction/beeple.jpg" id="albumCoverPhoto"> <!-- Album Cover -->
+			
+			</div>
+
+
+			<div class="w-1/2 m-auto object-left">
+					
+				<p class="text-3xl italic font-bold" id="albumName"> On My Way To Infinity </p> <!-- album name -->
+				<p class="text-lg mt-1 italic text-gray-400"> Rock, Alternative, Blues </p> <!-- genres -->
+
+				<div class="grid grid-flow-col grid-rows-1 grid-cols-2 gap-1 lg:flex lg:items-center mt-2 p-2 sm:p-1 object-left">
+					
+					<img class="w-8 h-8 rounded-full" src="/onauction/girl.jpg" id="bandCoverPhoto">	<!-- Band cover -->
+
+					<p class="text-xl ml-2 italic" id="bandName"> A Fictitious Band Name </p> <!-- Band name -->
+
+				</div>
+
+				<p class="mt-4 font-bold text-xl object-center"> Released at 2020 June 11, 12:48 </p> <!-- Auction Start -->
+
+				<div class="grid grid-flow-col grid-rows-1 grid-cols-2 gap-1 lg:flex lg:items-center object-center">
+					
+					<div class="grid grid-flow-col grid-rows-3 grid-cols-1 gap-1 p-10 sm:p-8 object-center justify-self-center">
+						
+						<p class="text-lg italic"> Current Bid </p> <!-- current bid -->
+						<p class="text-xl font-bold"> 1.5 ETH </p> <!-- bid --> 
+						<p class="text-xl text-gray-400"> $2500 </p> <!-- in dollars -->
+
+					</div>
+					<div class="grid grid-flow-col grid-rows-2 grid-cols-1 gap-1 p-10 sm:p-8 object-center self-start">
+						
+						<p class="text-lg italic"> Auction Ending In: </p> <!-- auction ending -->
+						<p class="text-xl font-bold"> 1h45m20s </p> <!-- time -->
+					
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="m-auto ml-80 mr-80 mt-8 h-2 rounded-2xl bg-gray-300"></div>
+
+		<div class="grid grid-flow-col mt-8 grid-cols-2 gap-1 lg:flex object-center">
+			
+			<div class="w-1/2 ml-10">
+			
+				<p class="text-5xl ml-60"> Tracks: </p>
+
+				<div class="grid grid-flow-col grid-cols-3 gap-2 lg:flex lg:items-center mb-2 h-96 p-10 sm:p-8 object-center text-2xl ml-60">
+					
+					<div>
+													
+						<p class=""> 1 - </p>
+
+						<p class=""> 2 - </p>
+
+						<p class=""> 3 - </p>
+
+						<p class=""> 4 - </p>
+
+						<p class=""> 5 - </p>
+
+						<p class=""> 6 - </p>
+
+						<p class=""> 7 - </p>
+
+						<p class=""> 8 - </p>
+
+					</div>
+
+					<div class="ml-4">
+						
+						<p class=""> On and On </p>
+
+						<p class=""> Bits </p>
+
+						<p class=""> Gouge Away </p>
+
+						<p class=""> Master of Dark </p>
+
+						<p class=""> Mars </p>
+
+						<p class=""> Asturias </p>
+
+						<p class=""> Clair de Phobos </p>
+
+						<p class=""> Mon </p>
+
+					</div>
+
+					<div class="ml-10 italic text-gray-600">
+													
+						<p class=""> 2:58 </p>
+
+						<p class=""> 3:20 </p>
+
+						<p class=""> 2:10 </p>
+
+						<p class=""> 2:40 </p>
+
+						<p class=""> 2:50 </p>
+
+						<p class=""> 3:10 </p>
+
+						<p class=""> 3:33 </p>
+
+						<p class=""> 3:40 </p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="w-1/2 ml-10">
+				
+				<p class="text-5xl"> Bids: </p>	
+
+				<div class="object-left overflow-y-visible overflow-y-scroll mt-10 h-80 object-scale-down divscroll demoScroll border-gray-300 border-4 rounded-lg w-2/3 text-lg">
+					
+					<div class="grid grid-flow-col grid-row-1 grid-cols-3 gap-2 w-auto lg:flex lg:items-center pl-8 ">
+						<div class=""><p class=""> NFT Serial Number: 1/20 - </p> </div>
+						<div class=""><p class=""> 2.0 ETH - </p></div>
+						<div class=""><p class="italic font-bold"  disabled> Not Available </p></div>	
+					</div>
+					<div class="grid grid-flow-col grid-row-1 grid-cols-3 gap-2 w-auto lg:flex lg:items-center pl-8 cursor-pointer hover:bg-gray-200">
+						<div class=""><p class=""> NFT Serial Number: 2/20 - </p> </div>
+						<div class=""><p class=""> 2.0 ETH - </p></div>
+						<div class=""><p class="italic font-bold" > On Sale </p></div>	
+					</div>
+					<div class="grid grid-flow-col grid-row-1 grid-cols-3 gap-2 w-auto lg:flex lg:items-center pl-8 ">
+						<div class=""><p class=""> NFT Serial Number: 3/20 - </p> </div>
+						<div class=""><p class=""> 2.0 ETH - </p></div>
+						<div class=""><p class="italic font-bold"  disabled> Not Available </p></div>	
+					</div>
+					<div class="grid grid-flow-col grid-row-1 grid-cols-3 gap-2 w-auto lg:flex lg:items-center pl-8 cursor-pointer hover:bg-gray-200">
+						<div class=""><p class=""> NFT Serial Number: 4/20 - </p> </div>
+						<div class=""><p class=""> 2.0 ETH - </p></div>
+						<div class=""><p class="italic font-bold" > On Sale </p></div>	
+					</div>
+					<div class="grid grid-flow-col grid-row-1 grid-cols-3 gap-2 w-auto lg:flex lg:items-center pl-8 ">
+						<div class=""><p class=""> NFT Serial Number: 5/20 - </p> </div>
+						<div class=""><p class=""> 2.0 ETH - </p></div>
+						<div class=""><p class="italic font-bold"  disabled> Not Available </p></div>	
+					</div>
+					<div class="grid grid-flow-col grid-row-1 grid-cols-3 gap-2 w-auto lg:flex lg:items-center pl-8 cursor-pointer hover:bg-gray-200">
+						<div class=""><p class=""> NFT Serial Number: 6/20 - </p> </div>
+						<div class=""><p class=""> 2.0 ETH - </p></div>
+						<div class=""><p class="italic font-bold" > On Sale </p></div>	
+					</div>
+					<div class="grid grid-flow-col grid-row-1 grid-cols-3 gap-2 w-auto lg:flex lg:items-center pl-8 ">
+						<div class=""><p class=""> NFT Serial Number: 7/20 - </p> </div>
+						<div class=""><p class=""> 2.0 ETH - </p></div>
+						<div class=""><p class="italic font-bold"  disabled> Not Available </p></div>	
+					</div>
+					<div class="grid grid-flow-col grid-row-1 grid-cols-3 gap-2 w-auto lg:flex lg:items-center pl-8 cursor-pointer hover:bg-gray-200">
+						<div class=""><p class=""> NFT Serial Number: 8/20 - </p> </div>
+						<div class=""><p class=""> 2.0 ETH - </p></div>
+						<div class=""><p class="italic font-bold" > On Sale </p></div>	
+					</div>
+					<div class="grid grid-flow-col grid-row-1 grid-cols-3 gap-2 w-auto lg:flex lg:items-center pl-8 ">
+						<div class=""><p class=""> NFT Serial Number: 9/20 - </p> </div>
+						<div class=""><p class=""> 2.0 ETH - </p></div>
+						<div class=""><p class="italic font-bold"  disabled> Not Available </p></div>	
+					</div>
+					<div class="grid grid-flow-col grid-row-1 grid-cols-3 gap-2 w-auto lg:flex lg:items-center pl-8 cursor-pointer hover:bg-gray-200">
+						<div class=""><p class=""> NFT Serial Number: 10/20 - </p> </div>
+						<div class=""><p class=""> 2.0 ETH - </p></div>
+						<div class=""><p class="italic font-bold" > On Sale </p></div>	
+					</div>
+					<div class="grid grid-flow-col grid-row-1 grid-cols-3 gap-2 w-auto lg:flex lg:items-center pl-8 ">
+						<div class=""><p class=""> NFT Serial Number: 11/20 - </p> </div>
+						<div class=""><p class=""> 2.0 ETH - </p></div>
+						<div class=""><p class="italic font-bold"  disabled> Not Available </p></div>	
+					</div>
+					<div class="grid grid-flow-col grid-row-1 grid-cols-3 gap-2 w-auto lg:flex lg:items-center pl-8 cursor-pointer hover:bg-gray-200">
+						<div class=""><p class=""> NFT Serial Number: 12/20 - </p> </div>
+						<div class=""><p class=""> 2.0 ETH - </p></div>
+						<div class=""><p class="italic font-bold" > On Sale </p></div>	
+					</div>
+					<div class="grid grid-flow-col grid-row-1 grid-cols-3 gap-2 w-auto lg:flex lg:items-center pl-8 ">
+						<div class=""><p class=""> NFT Serial Number: 13/20 - </p> </div>
+						<div class=""><p class=""> 2.0 ETH - </p></div>
+						<div class=""><p class="italic font-bold"  disabled> Not Available </p></div>	
+					</div>
+					<div class="grid grid-flow-col grid-row-1 grid-cols-3 gap-2 w-auto lg:flex lg:items-center pl-8 cursor-pointer hover:bg-gray-200">
+						<div class=""><p class=""> NFT Serial Number: 14/20 - </p> </div>
+						<div class=""><p class=""> 2.0 ETH - </p></div>
+						<div class=""><p class="italic font-bold" > On Sale </p></div>	
+					</div>
+					<div class="grid grid-flow-col grid-row-1 grid-cols-3 gap-2 w-auto lg:flex lg:items-center pl-8 ">
+						<div class=""><p class=""> NFT Serial Number: 15/20 - </p> </div>
+						<div class=""><p class=""> 2.0 ETH - </p></div>
+						<div class=""><p class="italic font-bold"  disabled> Not Available </p></div>	
+					</div>
+					<div class="grid grid-flow-col grid-row-1 grid-cols-3 gap-2 w-auto lg:flex lg:items-center pl-8 cursor-pointer hover:bg-gray-200">
+						<div class=""><p class=""> NFT Serial Number: 16/20 - </p> </div>
+						<div class=""><p class=""> 2.0 ETH - </p></div>
+						<div class=""><p class="italic font-bold" > On Sale </p></div>	
+					</div>
+					<div class="grid grid-flow-col grid-row-1 grid-cols-3 gap-2 w-auto lg:flex lg:items-center pl-8 ">
+						<div class=""><p class=""> NFT Serial Number: 17/20 - </p> </div>
+						<div class=""><p class=""> 2.0 ETH - </p></div>
+						<div class=""><p class="italic font-bold"  disabled> Not Available </p></div>	
+					</div>
+					<div class="grid grid-flow-col grid-row-1 grid-cols-3 gap-2 w-auto lg:flex lg:items-center pl-8 cursor-pointer hover:bg-gray-200">
+						<div class=""><p class=""> NFT Serial Number: 18/20 - </p> </div>
+						<div class=""><p class=""> 2.0 ETH - </p></div>
+						<div class=""><p class="italic font-bold" > On Sale </p></div>	
+					</div>
+					<div class="grid grid-flow-col grid-row-1 grid-cols-3 gap-2 w-auto lg:flex lg:items-center pl-8 ">
+						<div class=""><p class=""> NFT Serial Number: 19/20 - </p> </div>
+						<div class=""><p class=""> 2.0 ETH - </p></div>
+						<div class=""><p class="italic font-bold"  disabled> Not Available </p></div>	
+					</div>
+					<div class="grid grid-flow-col grid-row-1 grid-cols-3 gap-2 w-auto lg:flex lg:items-center pl-8 cursor-pointer hover:bg-gray-200">
+						<div class=""><p class=""> NFT Serial Number: 20/20 - </p> </div>
+						<div class=""><p class=""> 2.0 ETH - </p></div>
+						<div class=""><p class="italic font-bold" > On Sale </p></div>	
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>		
+
+		<footer-component></footer-component>
+
+		<script type="text/javascript" src="/components/viewBuilder.js"></script>
+
+		<script src="/components/search.js" type="text/javascript"></script>
+
+	</body>
+
+</html>

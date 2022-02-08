@@ -1,0 +1,25 @@
+https://tailwindcss.com/docs/installation
+
+https://javascript.plainenglish.io/get-tailwind-up-running-c454199f72ec
+
+
+https://bezkoder.com/vue-node-express-postgresql/
+
+
+https://foundation.app/
+
+
+needed pages:
+
+	faq - answers | debate (maybe)
+
+	privacy police
+
+	terms of service
+
+	community guidelines
+
+	link to instagram 
+
+
+
